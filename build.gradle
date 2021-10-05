@@ -31,6 +31,9 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
     testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.4'
     testImplementation 'org.springframework.security:spring-security-test'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-collections4
+    //implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+
 }
 
 test {
